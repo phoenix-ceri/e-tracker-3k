@@ -1,3 +1,9 @@
+/*
+ * Created on Thu Feb 09 2023
+ *
+ * Copyright (c) 2023 DAMNOPOSSUM Meadia Group
+ */
+
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 var cTable = require("console.table");
@@ -11,7 +17,7 @@ var connection = mysql.createConnection({
   // username
   user: "root",
   // password
-  password: "P@ssw0rd1234!",
+  password: "password",
   database: "employee_tracker"
 });
 
